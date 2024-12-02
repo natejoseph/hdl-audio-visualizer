@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Sun Dec  1 22:35:50 2024
+Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+Revision Name : hdl-audio-visualizer
+Top-level Entity Name : audiotovideotop
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 363
+Total pins : 41
+Total virtual pins : 0
+Total block memory bits : 12,288
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 2
+Total DLLs : 0
