@@ -1,0 +1,36 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate "C:\Users\ajlam\OneDrive\Documents\School Stuff\Fall 2024\ECE 417\FinalProject\hdl-audio-visualizer\fft.qsys" --block-symbol-file --output-directory="C:\Users\ajlam\OneDrive\Documents\School Stuff\Fall 2024\ECE 417\FinalProject\hdl-audio-visualizer\fft" --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading hdl-audio-visualizer/fft.qsys
+Progress: Reading input file
+Progress: Adding fft_ii_0 [altera_fft_ii 21.1]
+Progress: Parameterizing module fft_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: fft.fft_ii_0: Radix-2 digit reverse implied
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate "C:\Users\ajlam\OneDrive\Documents\School Stuff\Fall 2024\ECE 417\FinalProject\hdl-audio-visualizer\fft.qsys" --synthesis=VHDL --output-directory="C:\Users\ajlam\OneDrive\Documents\School Stuff\Fall 2024\ECE 417\FinalProject\hdl-audio-visualizer\fft\synthesis" --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading hdl-audio-visualizer/fft.qsys
+Progress: Reading input file
+Progress: Adding fft_ii_0 [altera_fft_ii 21.1]
+Progress: Parameterizing module fft_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: fft.fft_ii_0: Radix-2 digit reverse implied
+Info: fft: Generating fft "fft" for QUARTUS_SYNTH
+Info: fft_ii_0: --- add file: fft_fft_ii_0_1n1024cos.hex
+Info: fft_ii_0: --- add file: fft_fft_ii_0_1n1024sin.hex
+Info: fft_ii_0: --- add file: fft_fft_ii_0_2n1024cos.hex
+Info: fft_ii_0: --- add file: fft_fft_ii_0_2n1024sin.hex
+Info: fft_ii_0: --- add file: fft_fft_ii_0_3n1024cos.hex
+Info: fft_ii_0: --- add file: fft_fft_ii_0_3n1024sin.hex
+Info: fft_ii_0: "fft" instantiated altera_fft_ii "fft_ii_0"
+Info: fft: Done "fft" with 2 modules, 108 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

@@ -85,6 +85,24 @@ end component pqs;
          AUD_DACDAT        : OUT STD_LOGIC -- Change to OUT
       );
    END COMPONENT;
+	
+	COMPONENT audio_frequency_extraction
+    GENERIC (
+        SAMPLE_WIDTH : integer := 24;   -- Audio sample width (bits)
+        FFT_SIZE     : integer := 1024 -- FFT size (must be a power of 2)
+    );
+    PORT (
+        clk              : IN  std_logic;                -- System clock
+        reset            : IN  std_logic;                -- Reset signal
+        audio_in         : IN  std_logic_vector(SAMPLE_WIDTH-1 DOWNTO 0); -- Input audio data
+        data_valid       : IN  std_logic;                -- Indicates valid input sample
+        fft_start        : OUT std_logic;                -- Signal to start FFT
+        frequency_bin    : OUT integer range 0 TO FFT_SIZE/2-1; -- Frequency bin index
+        magnitude        : OUT integer;                 -- Magnitude of the frequency bin
+        fft_done         : OUT std_logic                 -- Indicates FFT is complete
+    );
+END COMPONENT;
+
 
    -- Internal signals
    SIGNAL read_ready, write_ready, read_s, write_s : STD_LOGIC;
@@ -92,7 +110,13 @@ end component pqs;
    SIGNAL writedata_left, writedata_right          : STD_LOGIC_VECTOR(23 DOWNTO 0) := (OTHERS => '0');
    SIGNAL reset1                                    : STD_LOGIC := '0';
 
-
+	SIGNAL fft_start : STD_LOGIC;
+	SIGNAL frequency_bin : integer range 0 to 1024/2-1;
+	SIGNAL magnitude : integer;
+	SIGNAL fft_done : STD_LOGIC;
+	SIGNAL audio_data : std_logic_vector(23 DOWNTO 0);
+	SIGNAL data_valid : std_logic := '0';
+	
 BEGIN
  
 
@@ -146,9 +170,27 @@ BEGIN
          readdata_right => readdata_right,
          AUD_DACDAT     => AUD_DACDAT -- Directly connect the output
       );
+		
+	my_audio_frequency_extraction: audio_frequency_extraction
+    GENERIC MAP (
+        SAMPLE_WIDTH => 24,
+        FFT_SIZE     => 1024
+    )
+    PORT MAP (
+        clk           => CLOCK_24,       -- Use the system clock
+        reset         => reset1,         -- Reset signal
+        audio_in      => audio_data,     -- Input audio data
+        data_valid    => data_valid,     -- Indicates valid input sample
+        fft_start     => fft_start,      -- Signal to start FFT
+        frequency_bin => frequency_bin,  -- Frequency bin index
+        magnitude     => magnitude,      -- Magnitude of the frequency bin
+        fft_done      => fft_done        -- Indicates FFT is complete
+    );
 
    -- Connect read_s to read_ready
    read_s <= read_ready;
+	audio_data <= readdata_left;
+	data_valid <= read_ready;
 
    -- Assert write_s when write_ready is asserted
    write_s <= write_ready;
