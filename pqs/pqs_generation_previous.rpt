@@ -1,0 +1,38 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate Z:\dev\hdl-audio-visualizer\pqs.qsys --block-symbol-file --output-directory=Z:\dev\hdl-audio-visualizer\pqs --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading hdl-audio-visualizer/pqs.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 20.1]
+Progress: Parameterizing module clk_0
+Progress: Adding pll_0 [altera_pll 20.1]
+Progress: Parameterizing module pll_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: pqs.pll_0: The legal reference clock frequency is 5.0 MHz..800.0 MHz
+Info: pqs.pll_0: Able to implement PLL with user settings
+Warning: pqs.pll_0: pll_0.locked must be exported, or connected to a matching conduit.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate Z:\dev\hdl-audio-visualizer\pqs.qsys --synthesis=VHDL --output-directory=Z:\dev\hdl-audio-visualizer\pqs\synthesis --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading hdl-audio-visualizer/pqs.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 20.1]
+Progress: Parameterizing module clk_0
+Progress: Adding pll_0 [altera_pll 20.1]
+Progress: Parameterizing module pll_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: pqs.pll_0: The legal reference clock frequency is 5.0 MHz..800.0 MHz
+Info: pqs.pll_0: Able to implement PLL with user settings
+Warning: pqs.pll_0: pll_0.locked must be exported, or connected to a matching conduit.
+Info: pqs: Generating pqs "pqs" for QUARTUS_SYNTH
+Info: pll_0: "pqs" instantiated altera_pll "pll_0"
+Info: pqs: Done "pqs" with 2 modules, 3 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

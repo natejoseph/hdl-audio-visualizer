@@ -1,8 +1,8 @@
 set_global_assignment -entity "pqs" -library "pqs" -name IP_TOOL_NAME "Qsys"
-set_global_assignment -entity "pqs" -library "pqs" -name IP_TOOL_VERSION "21.1"
+set_global_assignment -entity "pqs" -library "pqs" -name IP_TOOL_VERSION "20.1"
 set_global_assignment -entity "pqs" -library "pqs" -name IP_TOOL_ENV "Qsys"
 set_global_assignment -library "pqs" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../pqs.sopcinfo"]
-set_global_assignment -entity "pqs" -library "pqs" -name SLD_INFO "QSYS_NAME pqs HAS_SOPCINFO 1 GENERATION_ID 1733108087"
+set_global_assignment -entity "pqs" -library "pqs" -name SLD_INFO "QSYS_NAME pqs HAS_SOPCINFO 1 GENERATION_ID 1733170573"
 set_global_assignment -library "pqs" -name MISC_FILE [file join $::quartus(qip_path) "../pqs.cmp"]
 set_global_assignment -library "pqs" -name SLD_FILE [file join $::quartus(qip_path) "pqs.debuginfo"]
 set_global_assignment -entity "pqs" -library "pqs" -name IP_TARGETED_DEVICE_FAMILY "Cyclone V"
@@ -15,10 +15,10 @@ set_global_assignment -entity "pqs" -library "pqs" -name IP_COMPONENT_DISPLAY_NA
 set_global_assignment -entity "pqs" -library "pqs" -name IP_COMPONENT_REPORT_HIERARCHY "On"
 set_global_assignment -entity "pqs" -library "pqs" -name IP_COMPONENT_INTERNAL "Off"
 set_global_assignment -entity "pqs" -library "pqs" -name IP_COMPONENT_VERSION "MS4w"
-set_global_assignment -entity "pqs" -library "pqs" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTczMzEwODA4Nw==::QXV0byBHRU5FUkFUSU9OX0lE"
+set_global_assignment -entity "pqs" -library "pqs" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTczMzE3MDU3Mw==::QXV0byBHRU5FUkFUSU9OX0lE"
 set_global_assignment -entity "pqs" -library "pqs" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBW::QXV0byBERVZJQ0VfRkFNSUxZ"
-set_global_assignment -entity "pqs" -library "pqs" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::NUNHWEZDN0M3RjIzQzg=::QXV0byBERVZJQ0U="
-set_global_assignment -entity "pqs" -library "pqs" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::OF9INw==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="
+set_global_assignment -entity "pqs" -library "pqs" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::NUNTRU1BNUYzMUM2::QXV0byBERVZJQ0U="
+set_global_assignment -entity "pqs" -library "pqs" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::Ng==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="
 set_global_assignment -entity "pqs" -library "pqs" -name IP_COMPONENT_PARAMETER "QVVUT19QTExfMF9SRUZDTEtfQ0xPQ0tfUkFURQ==::LTE=::QXV0byBDTE9DS19SQVRF"
 set_global_assignment -entity "pqs" -library "pqs" -name IP_COMPONENT_PARAMETER "QVVUT19QTExfMF9SRUZDTEtfQ0xPQ0tfRE9NQUlO::LTE=::QXV0byBDTE9DS19ET01BSU4="
 set_global_assignment -entity "pqs" -library "pqs" -name IP_COMPONENT_PARAMETER "QVVUT19QTExfMF9SRUZDTEtfUkVTRVRfRE9NQUlO::LTE=::QXV0byBSRVNFVF9ET01BSU4="
@@ -27,11 +27,11 @@ set_global_assignment -entity "pqs_pll_0" -library "pqs" -name IP_COMPONENT_DISP
 set_global_assignment -entity "pqs_pll_0" -library "pqs" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
 set_global_assignment -entity "pqs_pll_0" -library "pqs" -name IP_COMPONENT_INTERNAL "Off"
 set_global_assignment -entity "pqs_pll_0" -library "pqs" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
-set_global_assignment -entity "pqs_pll_0" -library "pqs" -name IP_COMPONENT_VERSION "MjEuMQ=="
+set_global_assignment -entity "pqs_pll_0" -library "pqs" -name IP_COMPONENT_VERSION "MjAuMQ=="
 set_global_assignment -entity "pqs_pll_0" -library "pqs" -name IP_COMPONENT_DESCRIPTION "SW50ZWwgUGhhc2UtTG9ja2VkIExvb3A="
 set_global_assignment -entity "pqs_pll_0" -library "pqs" -name IP_COMPONENT_PARAMETER "ZGVidWdfcHJpbnRfb3V0cHV0::ZmFsc2U=::ZGVidWdfcHJpbnRfb3V0cHV0"
 set_global_assignment -entity "pqs_pll_0" -library "pqs" -name IP_COMPONENT_PARAMETER "ZGVidWdfdXNlX3JiY190YWZfbWV0aG9k::ZmFsc2U=::ZGVidWdfdXNlX3JiY190YWZfbWV0aG9k"
-set_global_assignment -entity "pqs_pll_0" -library "pqs" -name IP_COMPONENT_PARAMETER "ZGV2aWNl::NUNHWEZDN0M3RjIzQzg=::ZGV2aWNl"
+set_global_assignment -entity "pqs_pll_0" -library "pqs" -name IP_COMPONENT_PARAMETER "ZGV2aWNl::NUNTRU1BNUYzMUM2::ZGV2aWNl"
 set_global_assignment -entity "pqs_pll_0" -library "pqs" -name IP_COMPONENT_PARAMETER "Z3VpX3BsbF9tb2Rl::SW50ZWdlci1OIFBMTA==::UExMIE1vZGU="
 set_global_assignment -entity "pqs_pll_0" -library "pqs" -name IP_COMPONENT_PARAMETER "ZnJhY3Rpb25hbF92Y29fbXVsdGlwbGllcg==::ZmFsc2U=::ZnJhY3Rpb25hbF92Y29fbXVsdGlwbGllcg=="
 set_global_assignment -entity "pqs_pll_0" -library "pqs" -name IP_COMPONENT_PARAMETER "Z3VpX3JlZmVyZW5jZV9jbG9ja19mcmVxdWVuY3k=::NTAuMA==::UmVmZXJlbmNlIENsb2NrIEZyZXF1ZW5jeQ=="
@@ -342,5 +342,5 @@ set_global_assignment -library "pqs" -name VERILOG_FILE [file join $::quartus(qi
 set_global_assignment -library "pqs" -name QIP_FILE [file join $::quartus(qip_path) "submodules/pqs_pll_0.qip"]
 
 set_global_assignment -entity "pqs_pll_0" -library "pqs" -name IP_TOOL_NAME "altera_pll"
-set_global_assignment -entity "pqs_pll_0" -library "pqs" -name IP_TOOL_VERSION "21.1"
+set_global_assignment -entity "pqs_pll_0" -library "pqs" -name IP_TOOL_VERSION "20.1"
 set_global_assignment -entity "pqs_pll_0" -library "pqs" -name IP_TOOL_ENV "Qsys"

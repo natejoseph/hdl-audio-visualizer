@@ -2,148 +2,84 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Slow 1100mV 85C Model Setup 'C|pll_0|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 3.213
+Type  : Slow 1100mV 85C Model Setup 'altera_reserved_tck'
+Slack : 12.554
 TNS   : 0.000
 
-Type  : Slow 1100mV 85C Model Setup 'CLOCK_24'
-Slack : 13.984
+Type  : Slow 1100mV 85C Model Hold 'altera_reserved_tck'
+Slack : 0.728
 TNS   : 0.000
 
-Type  : Slow 1100mV 85C Model Hold 'CLOCK_24'
-Slack : 0.228
+Type  : Slow 1100mV 85C Model Recovery 'altera_reserved_tck'
+Slack : 30.129
 TNS   : 0.000
 
-Type  : Slow 1100mV 85C Model Hold 'C|pll_0|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 0.332
+Type  : Slow 1100mV 85C Model Removal 'altera_reserved_tck'
+Slack : 1.064
 TNS   : 0.000
 
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'C|pll_0|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
-Slack : 0.925
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 15.787
 TNS   : 0.000
 
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'my_clock_gen|DE_Clock_Generator_Audio|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
-Slack : 1.322
+Type  : Slow 1100mV 0C Model Setup 'altera_reserved_tck'
+Slack : 12.610
 TNS   : 0.000
 
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'C|pll_0|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 3.924
+Type  : Slow 1100mV 0C Model Hold 'altera_reserved_tck'
+Slack : 0.679
 TNS   : 0.000
 
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_24'
-Slack : 8.855
+Type  : Slow 1100mV 0C Model Recovery 'altera_reserved_tck'
+Slack : 30.232
 TNS   : 0.000
 
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK2_50'
-Slack : 18.418
+Type  : Slow 1100mV 0C Model Removal 'altera_reserved_tck'
+Slack : 0.968
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Setup 'C|pll_0|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 3.245
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 15.797
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Setup 'CLOCK_24'
-Slack : 14.138
+Type  : Fast 1100mV 85C Model Setup 'altera_reserved_tck'
+Slack : 14.310
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'CLOCK_24'
-Slack : 0.214
+Type  : Fast 1100mV 85C Model Hold 'altera_reserved_tck'
+Slack : 0.325
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'C|pll_0|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 0.346
+Type  : Fast 1100mV 85C Model Recovery 'altera_reserved_tck'
+Slack : 31.228
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'C|pll_0|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
-Slack : 0.925
+Type  : Fast 1100mV 85C Model Removal 'altera_reserved_tck'
+Slack : 0.544
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'my_clock_gen|DE_Clock_Generator_Audio|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
-Slack : 1.322
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 15.777
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'C|pll_0|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 3.877
+Type  : Fast 1100mV 0C Model Setup 'altera_reserved_tck'
+Slack : 14.582
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_24'
-Slack : 8.811
+Type  : Fast 1100mV 0C Model Hold 'altera_reserved_tck'
+Slack : 0.293
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK2_50'
-Slack : 18.444
+Type  : Fast 1100mV 0C Model Recovery 'altera_reserved_tck'
+Slack : 31.417
 TNS   : 0.000
 
-Type  : Fast 1100mV 85C Model Setup 'C|pll_0|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 5.723
+Type  : Fast 1100mV 0C Model Removal 'altera_reserved_tck'
+Slack : 0.470
 TNS   : 0.000
 
-Type  : Fast 1100mV 85C Model Setup 'CLOCK_24'
-Slack : 16.420
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'CLOCK_24'
-Slack : 0.140
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'C|pll_0|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 0.165
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'C|pll_0|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
-Slack : 0.925
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'my_clock_gen|DE_Clock_Generator_Audio|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
-Slack : 1.322
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'C|pll_0|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 4.176
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_24'
-Slack : 8.789
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK2_50'
-Slack : 18.161
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Setup 'C|pll_0|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 6.021
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Setup 'CLOCK_24'
-Slack : 16.759
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'CLOCK_24'
-Slack : 0.127
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'C|pll_0|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 0.153
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'C|pll_0|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
-Slack : 0.925
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'my_clock_gen|DE_Clock_Generator_Audio|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
-Slack : 1.322
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'C|pll_0|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 4.170
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_24'
-Slack : 8.782
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK2_50'
-Slack : 18.150
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 15.793
 TNS   : 0.000
 
 ------------------------------------------------------------

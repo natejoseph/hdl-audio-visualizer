@@ -1,8 +1,8 @@
 Info: Starting: Create block symbol file (.bsf)
-Info: qsys-generate "C:\Users\ajlam\OneDrive\Documents\School Stuff\Fall 2024\ECE 417\FinalProject\hdl-audio-visualizer\fft.qsys" --block-symbol-file --output-directory="C:\Users\ajlam\OneDrive\Documents\School Stuff\Fall 2024\ECE 417\FinalProject\hdl-audio-visualizer\fft" --family="Cyclone V" --part=5CSEMA5F31C6
+Info: qsys-generate Z:\dev\hdl-audio-visualizer\fft.qsys --block-symbol-file --output-directory=Z:\dev\hdl-audio-visualizer\fft --family="Cyclone V" --part=5CSEMA5F31C6
 Progress: Loading hdl-audio-visualizer/fft.qsys
 Progress: Reading input file
-Progress: Adding fft_ii_0 [altera_fft_ii 21.1]
+Progress: Adding fft_ii_0 [altera_fft_ii 20.1]
 Progress: Parameterizing module fft_ii_0
 Progress: Building connections
 Progress: Parameterizing connections
@@ -13,10 +13,10 @@ Info: qsys-generate succeeded.
 Info: Finished: Create block symbol file (.bsf)
 Info: 
 Info: Starting: Create HDL design files for synthesis
-Info: qsys-generate "C:\Users\ajlam\OneDrive\Documents\School Stuff\Fall 2024\ECE 417\FinalProject\hdl-audio-visualizer\fft.qsys" --synthesis=VHDL --output-directory="C:\Users\ajlam\OneDrive\Documents\School Stuff\Fall 2024\ECE 417\FinalProject\hdl-audio-visualizer\fft\synthesis" --family="Cyclone V" --part=5CSEMA5F31C6
+Info: qsys-generate Z:\dev\hdl-audio-visualizer\fft.qsys --synthesis=VHDL --output-directory=Z:\dev\hdl-audio-visualizer\fft\synthesis --family="Cyclone V" --part=5CSEMA5F31C6
 Progress: Loading hdl-audio-visualizer/fft.qsys
 Progress: Reading input file
-Progress: Adding fft_ii_0 [altera_fft_ii 21.1]
+Progress: Adding fft_ii_0 [altera_fft_ii 20.1]
 Progress: Parameterizing module fft_ii_0
 Progress: Building connections
 Progress: Parameterizing connections
