@@ -12,7 +12,7 @@ entity audio_frequency_extraction is
         reset            : in  std_logic;                -- Reset signal
         audio_in         : in  std_logic_vector(SAMPLE_WIDTH-1 downto 0); -- Input audio data
         data_valid       : in  std_logic;                -- Indicates valid input sample
-        fft_start        : out std_logic;                -- Signal to start FFT
+        fft_start        : in std_logic;                -- Signal to start FFT
         frequency_bin    : out integer range 0 to FFT_SIZE/2-1; -- Frequency bin index
         magnitude        : out integer;                 -- Magnitude of the frequency bin
         fft_done         : out std_logic                 -- Indicates FFT is complete
@@ -25,7 +25,7 @@ architecture Behavioral of audio_frequency_extraction is
 	
     -- Signal declarations
     signal audio_buffer : audio_buffer_type;
-    signal buffer_index : integer range 0 to FFT_SIZE-1 := 0;
+    signal buffer_index : integer range 0 to FFT_SIZE/2-1 := 0;
 	 signal output_sample_index : integer range 0 to FFT_SIZE-1 := 0;
     signal windowed_data : std_logic_vector(SAMPLE_WIDTH-1 downto 0); -- Windowed sample
     signal fft_input_ready : std_logic := '0';
@@ -148,7 +148,8 @@ begin
             elsif fft_output_valid = '1' then
                 -- Abstracted: Use a function or external module to compute magnitude
                 -- Placeholder: Assign the real output as magnitude (for simplicity)
-                magnitude_internal <= to_integer(unsigned(fft_real)) ** 2 + to_integer(unsigned(fft_imag)) ** 2;
+                magnitude_internal <= to_integer(unsigned(fft_real)) * to_integer(unsigned(fft_real)) +
+                      to_integer(unsigned(fft_imag)) * to_integer(unsigned(fft_imag));
 
                 -- actual_magnitude <= magnitude_internal * (2 ** to_integer(unsigned(fft_exp)));
 

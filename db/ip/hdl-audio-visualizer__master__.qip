@@ -1,0 +1,2 @@
+set_global_assignment -name QIP_FILE [file join $::quartus(qip_path) pqs/pqs.qip]
+set_global_assignment -name QIP_FILE [file join $::quartus(qip_path) fft/fft.qip]

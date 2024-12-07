@@ -44,38 +44,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "VGA_B[0]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_B[1]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_B[2]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_B[3]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_B[4]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_B[5]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_B[6]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_B[7]",
-					"strict" : false
-				},
-				{
 					"name" : "VGA_G[0]",
 					"strict" : false
 				},
@@ -120,23 +88,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "VGA_SW3",
-					"strict" : false
-				},
-				{
 					"name" : "CLOCK_24",
 					"strict" : false
 				},
 				{
 					"name" : "KEY[0]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_SW2",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_SW1",
 					"strict" : false
 				},
 				{

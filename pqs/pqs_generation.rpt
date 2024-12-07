@@ -1,5 +1,5 @@
 Info: Starting: Create block symbol file (.bsf)
-Info: qsys-generate Z:\dev\hdl-audio-visualizer\pqs.qsys --block-symbol-file --output-directory=Z:\dev\hdl-audio-visualizer\pqs --family="Cyclone V" --part=5CSEMA5F31C6
+Info: qsys-generate "C:\Users\ajlam\OneDrive\Documents\School Stuff\Fall 2024\ECE 417\FinalProject\hdl-audio-visualizer\pqs.qsys" --block-symbol-file --output-directory="C:\Users\ajlam\OneDrive\Documents\School Stuff\Fall 2024\ECE 417\FinalProject\hdl-audio-visualizer\pqs" --family="Cyclone V" --part=5CSEMA5F31C6
 Progress: Loading hdl-audio-visualizer/pqs.qsys
 Progress: Reading input file
 Progress: Adding clk_0 [clock_source 20.1]
@@ -17,7 +17,7 @@ Info: qsys-generate succeeded.
 Info: Finished: Create block symbol file (.bsf)
 Info: 
 Info: Starting: Create HDL design files for synthesis
-Info: qsys-generate Z:\dev\hdl-audio-visualizer\pqs.qsys --synthesis=VHDL --output-directory=Z:\dev\hdl-audio-visualizer\pqs\synthesis --family="Cyclone V" --part=5CSEMA5F31C6
+Info: qsys-generate "C:\Users\ajlam\OneDrive\Documents\School Stuff\Fall 2024\ECE 417\FinalProject\hdl-audio-visualizer\pqs.qsys" --synthesis=VHDL --output-directory="C:\Users\ajlam\OneDrive\Documents\School Stuff\Fall 2024\ECE 417\FinalProject\hdl-audio-visualizer\pqs\synthesis" --family="Cyclone V" --part=5CSEMA5F31C6
 Progress: Loading hdl-audio-visualizer/pqs.qsys
 Progress: Reading input file
 Progress: Adding clk_0 [clock_source 20.1]

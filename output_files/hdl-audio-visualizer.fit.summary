@@ -1,13 +1,13 @@
-Fitter Status : Successful - Mon Dec 02 15:19:44 2024
+Fitter Status : Successful - Tue Dec 03 14:10:44 2024
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : hdl-audio-visualizer
 Top-level Entity Name : audiotovideotop
 Family : Cyclone V
 Device : 5CSEMA5F31C6
 Timing Models : Final
-Logic utilization (in ALMs) : 416 / 32,070 ( 1 % )
-Total registers : 532
-Total pins : 41 / 457 ( 9 % )
+Logic utilization (in ALMs) : 235 / 32,070 ( < 1 % )
+Total registers : 336
+Total pins : 38 / 457 ( 8 % )
 Total virtual pins : 0
 Total block memory bits : 12,288 / 4,065,280 ( < 1 % )
 Total RAM Blocks : 4 / 397 ( 1 % )

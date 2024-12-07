@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Mon Dec 02 15:17:31 2024
+Analysis & Synthesis Status : Successful - Tue Dec 03 14:09:45 2024
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : hdl-audio-visualizer
 Top-level Entity Name : audiotovideotop
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 511
-Total pins : 41
+Total registers : 334
+Total pins : 38
 Total virtual pins : 0
 Total block memory bits : 12,288
 Total DSP Blocks : 0

@@ -1,5 +1,5 @@
 Flow report for hdl-audio-visualizer
-Mon Dec 02 15:20:46 2024
+Tue Dec 03 14:11:01 2024
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,16 +41,16 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Mon Dec 02 15:20:15 2024       ;
+; Flow Status                     ; Successful - Tue Dec 03 14:10:53 2024       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; hdl-audio-visualizer                        ;
 ; Top-level Entity Name           ; audiotovideotop                             ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSEMA5F31C6                                ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 416 / 32,070 ( 1 % )                        ;
-; Total registers                 ; 532                                         ;
-; Total pins                      ; 41 / 457 ( 9 % )                            ;
+; Logic utilization (in ALMs)     ; 235 / 32,070 ( < 1 % )                      ;
+; Total registers                 ; 336                                         ;
+; Total pins                      ; 38 / 457 ( 8 % )                            ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 12,288 / 4,065,280 ( < 1 % )                ;
 ; Total DSP Blocks                ; 0 / 87 ( 0 % )                              ;
@@ -68,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+----------------------+
 ; Option            ; Setting              ;
 +-------------------+----------------------+
-; Start date & time ; 12/02/2024 15:16:24  ;
+; Start date & time ; 12/03/2024 14:09:30  ;
 ; Main task         ; Compilation          ;
 ; Revision Name     ; hdl-audio-visualizer ;
 +-------------------+----------------------+
@@ -79,12 +79,9 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+-------------------------------------------------------+----------------------+-----------------+------------+
 ; Assignment Name                     ; Value                                                 ; Default Value        ; Entity Name     ; Section Id ;
 +-------------------------------------+-------------------------------------------------------+----------------------+-----------------+------------+
-; COMPILER_SIGNATURE_ID               ; 121377545513.173317058410724                          ; --                   ; --              ; --         ;
+; COMPILER_SIGNATURE_ID               ; 213533738516995.173325296938544                       ; --                   ; --              ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                                    ; --                   ; --              ; --         ;
-; MESSAGE_DISABLE                     ; 270007                                                ; --                   ; fft_fft_ii_0    ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                                     ; --                   ; --              ; --         ;
-; MISC_FILE                           ; fft/synthesis/../fft.cmp                              ; --                   ; --              ; --         ;
-; MISC_FILE                           ; fft/synthesis/../../fft.qsys                          ; --                   ; --              ; --         ;
 ; MISC_FILE                           ; pqs/synthesis/../pqs.cmp                              ; --                   ; --              ; --         ;
 ; MISC_FILE                           ; pqs/synthesis/../../pqs.qsys                          ; --                   ; --              ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family)                ; --                   ; audiotovideotop ; Top        ;
@@ -93,13 +90,9 @@ https://fpgasoftware.intel.com/eula.
 ; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                   ; --                   ; --              ; --         ;
 ; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                 ; --                   ; --              ; --         ;
 ; PROJECT_OUTPUT_DIRECTORY            ; output_files                                          ; --                   ; --              ; --         ;
-; SLD_FILE                            ; fft/synthesis/fft.debuginfo                           ; --                   ; --              ; --         ;
 ; SLD_FILE                            ; pqs/synthesis/pqs.debuginfo                           ; --                   ; --              ; --         ;
-; SLD_INFO                            ; QSYS_NAME fft HAS_SOPCINFO 1 GENERATION_ID 1733170547 ; --                   ; fft             ; --         ;
-; SLD_INFO                            ; QSYS_NAME pqs HAS_SOPCINFO 1 GENERATION_ID 1733170573 ; --                   ; pqs             ; --         ;
-; SOPCINFO_FILE                       ; fft/synthesis/../../fft.sopcinfo                      ; --                   ; --              ; --         ;
+; SLD_INFO                            ; QSYS_NAME pqs HAS_SOPCINFO 1 GENERATION_ID 1733174453 ; --                   ; pqs             ; --         ;
 ; SOPCINFO_FILE                       ; pqs/synthesis/../../pqs.sopcinfo                      ; --                   ; --              ; --         ;
-; SYNTHESIS_ONLY_QIP                  ; On                                                    ; --                   ; --              ; --         ;
 ; SYNTHESIS_ONLY_QIP                  ; On                                                    ; --                   ; --              ; --         ;
 ; TOP_LEVEL_ENTITY                    ; audiotovideotop                                       ; hdl-audio-visualizer ; --              ; --         ;
 +-------------------------------------+-------------------------------------------------------+----------------------+-----------------+------------+
@@ -110,11 +103,11 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:57     ; 1.0                     ; 5007 MB             ; 00:01:06                           ;
-; Fitter               ; 00:02:08     ; 1.0                     ; 6584 MB             ; 00:02:53                           ;
-; Assembler            ; 00:00:26     ; 1.0                     ; 4855 MB             ; 00:00:16                           ;
-; Timing Analyzer      ; 00:00:29     ; 1.1                     ; 5222 MB             ; 00:00:29                           ;
-; Total                ; 00:04:00     ; --                      ; --                  ; 00:04:44                           ;
+; Analysis & Synthesis ; 00:00:15     ; 1.0                     ; 4942 MB             ; 00:00:10                           ;
+; Fitter               ; 00:00:58     ; 1.1                     ; 7078 MB             ; 00:02:03                           ;
+; Assembler            ; 00:00:07     ; 1.0                     ; 4848 MB             ; 00:00:04                           ;
+; Timing Analyzer      ; 00:00:07     ; 1.4                     ; 5257 MB             ; 00:00:05                           ;
+; Total                ; 00:01:27     ; --                      ; --                  ; 00:02:22                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -123,10 +116,10 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+------------------+------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; NATEJOSEPHA4DE   ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; NATEJOSEPHA4DE   ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; NATEJOSEPHA4DE   ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; NATEJOSEPHA4DE   ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; AjLama           ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; AjLama           ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; AjLama           ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; AjLama           ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 

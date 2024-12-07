@@ -1,30 +1,14 @@
 <sld_project_info>
   <project>
-    <hash md5_digest_80b="3eeac643912005f01813"/>
+    <hash md5_digest_80b="ea934d8d8cb0922bdaca"/>
   </project>
   <file_info>
-    <file device="5CSEMA5F31C6" path="hdl-audio-visualizer_time_limited.sof" usercode="0xFFFFFFFF"/>
+    <file device="5CSEMA5F31C6" path="hdl-audio-visualizer.sof" usercode="0xFFFFFFFF"/>
   </file_info>
-  <hub_info hub_ir_width="4" ir_width="2" node_addr_width="1" node_count="1"/>
-  <node_info>
-    <node hpath="pzdyqx:nabboc" instance_id="0" mfg_id="110" node_id="1" sld_node_info="0x86E00" version="0"/>
-  </node_info>
   <sld_infos>
-    <sld_info hpath="audio_frequency_extraction:my_audio_frequency_extraction|fft:fft_core" name="fft_core">
-      <assignment_values>
-        <assignment_value text="QSYS_NAME fft HAS_SOPCINFO 1 GENERATION_ID 1733170547"/>
-      </assignment_values>
-      <parameters/>
-    </sld_info>
     <sld_info hpath="pqs:C" name="C">
       <assignment_values>
-        <assignment_value text="QSYS_NAME pqs HAS_SOPCINFO 1 GENERATION_ID 1733170573"/>
-      </assignment_values>
-      <parameters/>
-    </sld_info>
-    <sld_info hpath="sld_hub:auto_hub|alt_sld_fab:\instrumentation_fabric_with_node_gen:instrumentation_fabric" library="alt_sld_fab" name="instrumentation_fabric">
-      <assignment_values>
-        <assignment_value text="QSYS_NAME alt_sld_fab HAS_SOPCINFO 1"/>
+        <assignment_value text="QSYS_NAME pqs HAS_SOPCINFO 1 GENERATION_ID 1733174453"/>
       </assignment_values>
       <parameters/>
     </sld_info>
